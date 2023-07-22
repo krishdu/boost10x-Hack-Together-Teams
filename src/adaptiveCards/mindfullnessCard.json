@@ -1,0 +1,24 @@
+{
+    "type": "AdaptiveCard",
+    "body": [
+      {
+        "type": "Image",
+        "url": "${thumbnailUrl}"
+      },
+      {
+        "type": "TextBlock",
+        "size": "Medium",
+        "weight": "Bolder",
+        "text": "Close your eyes and just focus on the audio 🎶"
+      }
+    ],
+    "actions": [
+      {
+        "type": "Action.OpenUrl",
+        "title": "Watch Video (< 7 min) 👀",
+        "url": "${videoUrl}",
+        "horizontalAlignment": "Center"
+      }
+    ]
+  }
+  
